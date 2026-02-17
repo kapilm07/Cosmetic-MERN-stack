@@ -1,0 +1,201 @@
+main {
+  min-height: 80vh;
+}
+
+/* Modern Beauty Theme Colors */
+:root {
+  --beauty-primary: #e91e63;
+  --beauty-secondary: #fce4ec;
+  --beauty-accent: #ff4081;
+  --beauty-light: #fff3f7;
+  --beauty-dark: #ad1457;
+  --beauty-gradient: linear-gradient(135deg, #e91e63 0%, #f06292 50%, #ff80ab 100%);
+  --beauty-text: #2c2c2c;
+  --beauty-text-light: #666;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.rating svg {
+  color: #f8e825;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.product-title {
+  height: 2.5em; /* Set a fixed height */
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Add ellipsis for long text */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+/* Beauty Product Card Hover Effects */
+.beauty-product-card:hover {
+  box-shadow: 0 10px 30px rgba(233, 30, 99, 0.2);
+  transform: translateY(-3px);
+  border-color: var(--beauty-accent) !important;
+}
+
+/* Custom Navbar Styling for Beauty Theme */
+.beauty-navbar {
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.beauty-navbar .navbar-nav .nav-link {
+  color: rgba(255,255,255,0.9) !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  margin: 0 5px;
+  border-radius: 8px;
+  padding: 8px 12px !important;
+}
+
+.beauty-navbar .navbar-nav .nav-link:hover {
+  color: white !important;
+  background: rgba(255,255,255,0.1);
+  transform: translateY(-1px);
+}
+
+.beauty-navbar .dropdown-menu {
+  background: rgba(45, 27, 105, 0.95);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+}
+
+.beauty-navbar .dropdown-item {
+  color: rgba(255,255,255,0.9) !important;
+  transition: all 0.3s ease;
+}
+
+.beauty-navbar .dropdown-item:hover {
+  background: rgba(233, 30, 99, 0.2);
+  color: white !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Custom Button Styling */
+.btn-primary {
+  background: var(--beauty-gradient);
+  border: none;
+  box-shadow: 0 4px 15px rgba(233, 30, 99, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #ad1457 0%, #e91e63 50%, #f06292 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(233, 30, 99, 0.4);
+}
+
+table td,
+table th {
+  text-align: center;
+}
+
+.review {
+  margin-top: 30px;
+}
+
+.review h2 {
+  font-size: 24px;
+  background: var(--beauty-light);
+  padding: 10px;
+  border: 1px solid #ddd;
+  color: var(--beauty-primary);
+}
+
+.review button {
+  margin-top: 10px;
+}
+
+.carousel-caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Beauty specific styling */
+.beauty-hero-section h1 {
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  background: var(--beauty-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.brand-badge {
+  font-family: 'Arial', sans-serif;
+  font-weight: 500;
+  background: var(--beauty-gradient) !important;
+  border: none !important;
+  box-shadow: 0 2px 8px rgba(233, 30, 99, 0.3);
+}
+
+.category-filters .badge {
+  transition: all 0.3s ease;
+  border-radius: 25px !important;
+  font-weight: 500;
+}
+
+.category-filters .badge:hover {
+  background: var(--beauty-gradient) !important;
+  color: white !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(233, 30, 99, 0.3);
+}
+
+/* Enhanced card styling */
+.card {
+  border-radius: 15px !important;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.card img {
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+/* Search Bar Placeholder Styling */
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-weight: 500;
+}
+
+.form-control::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-weight: 500;
+}
