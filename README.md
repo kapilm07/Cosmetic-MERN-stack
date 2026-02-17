@@ -4,11 +4,11 @@
 cd frontend
 npm i
 
-new terminal
+#new terminal
 /root
 cd backend 
 npm i
 
 
-backend-> npm run dev
-frontend-> npm start
+#backend-> npm run dev
+#frontend-> npm start
